@@ -1430,7 +1430,7 @@
         'name': 'variable.parameter.function.latex'
       '5':
         'name': 'punctuation.definition.arguments.end.latex'
-    'contentName': 'string.other.math.block.environment.latex'
+    'contentName': 'mathstring.block.environment.latex'
     'end': '''(?x)
               (?:\\s*)
               ((\\\\)end)
@@ -1465,7 +1465,7 @@
         'name': 'variable.parameter.function.latex'
       '8':
         'name': 'punctuation.definition.arguments.end.latex'
-    'contentName': 'string.other.math.block.environment.latex'
+    'contentName': 'mathstring.block.environment.latex'
     'end': '(?:\\s*)((\\\\)end)(\\{)(\\4)(\\})'
     'name': 'meta.function.environment.math.latex'
     'patterns': [
@@ -1493,7 +1493,7 @@
         'name': 'variable.parameter.latex'
       '8':
         'name': 'punctuation.definition.arguments.optional.end.latex'
-    'contentName': 'string.other.math.block.environment.latex'
+    'contentName': 'mathstring.block.environment.latex'
     'end': '(?:\\s*)((\\\\)end)(\\{)(\\4)(\\})'
     'name': 'meta.function.environment.math.latex'
     'patterns': [
@@ -1515,7 +1515,7 @@
         'name': 'invalid.deprecated.environment.eqnarray.latex'
       '5':
         'name': 'punctuation.definition.arguments.end.latex'
-    'contentName': 'string.other.math.block.environment.latex'
+    'contentName': 'mathstring.block.environment.latex'
     'end': '(?:\\s*)((\\\\)end)(\\{)(\\4)(\\})'
     'name': 'meta.function.environment.math.latex'
     'patterns': [
@@ -1963,7 +1963,7 @@
     'endCaptures':
       '0':
         'name': 'punctuation.definition.string.end.latex'
-    'name': 'string.other.math.latex'
+    'name': 'mathstring.latex'
     'patterns': [
       {
         'include': '$base'
@@ -1979,7 +1979,7 @@
     'endCaptures':
       '0':
         'name': 'punctuation.definition.string.end.latex'
-    'name': 'string.other.math.latex'
+    'name': 'mathstring.latex'
     'patterns': [
       {
         'include': '$base'

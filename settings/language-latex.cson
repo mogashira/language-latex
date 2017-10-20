@@ -10,18 +10,25 @@
     'increaseIndentPattern': '^\\s*\\\\begin\\{(?!document).*\\}'
     'decreaseIndentPattern': '^\\s*\\\\end(\\{(?!document).*\\})?$'
     'completions': [
-      'corollary'
-      'definition'
-      'description'
-      'enumerate'
-      'equation'
-      'itemize'
+#      'corollary'
+#      'definition'
+#      'description'
+#      'enumerate'
+#      'equation'
+#      'itemize'
       'lemma'
       'proof'
-      'proposition'
+#      'proposition'
       'verbatim'
     ]
     'softWrap': true
 '.text.log.latex':
   'editor':
     'foldEndPattern': '\\*\\*/|^\\s*\\)'
+
+'.text.tex.latex .mathstring':
+  "bracket-matcher":
+    autocompleteCharacters: [
+      "{}"
+    ]
+#    wrapSelectionsInBrackets: false

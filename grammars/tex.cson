@@ -96,7 +96,7 @@
     'endCaptures':
       '0':
         'name': 'punctuation.definition.string.end.tex'
-    'name': 'string.other.math.block.tex'
+    'name': 'mathstring.block.tex'
     'patterns': [
       {
         'include': '#math'
@@ -119,7 +119,7 @@
     'endCaptures':
       '0':
         'name': 'punctuation.definition.string.end.tex'
-    'name': 'string.other.math.tex'
+    'name': 'mathstring.tex'
     'patterns': [
       {
         'match': '\\\\\\$'
